@@ -13,6 +13,7 @@
     "@types/react": "18.2.57",
     "@types/react-dom": "18.2.19",
     "autoprefixer": "10.4.17",
+    "class-variance-authority": "^0.7.1",
     "lucide-react": "^0.341.0",
     "next": "14.1.0",
     "postcss": "8.4.35",
@@ -20,5 +21,6 @@
     "react-dom": "18.2.0",
     "tailwindcss": "3.4.1",
     "typescript": "5.3.3"
-  }
+  },
+  "packageManager": "pnpm@10.17.1+sha512.17c560fca4867ae9473a3899ad84a88334914f379be46d455cbf92e5cf4b39d34985d452d2583baf19967fa76cb5c17bc9e245529d0b98745721aa7200ecaf7a"
 }
