@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react'
 import { Article } from '@/lib/types'
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5001'
+const API_BASE =
+  process.env.NEXT_PUBLIC_API_URL || 'https://press-backend-rc3w.onrender.com'
 
 export function useSimilarArticles(articleId: string | null) {
   const [similarArticles, setSimilarArticles] = useState<Article[]>([])

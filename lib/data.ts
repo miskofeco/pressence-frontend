@@ -1,7 +1,8 @@
 import { Article } from './types'
 import { createSlug } from "@/lib/utils"
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5001'
+const API_BASE =
+  process.env.NEXT_PUBLIC_API_URL || 'https://press-backend-rc3w.onrender.com'
 
 export async function getArticles(limit?: number, offset?: number): Promise<Article[]> {
   try {
@@ -98,5 +99,4 @@ export async function getArticleBySlug(slug: string): Promise<Article | null> {
     return null
   }
 }
-
 
